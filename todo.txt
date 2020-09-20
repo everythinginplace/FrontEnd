@@ -1,31 +1,18 @@
 // TODO \\
-When randomising item selection, ensure a new item is taken every time
-Update + delete / databinding
-Separate component for rendering item
-Json placeholder url in config
+Generate component using shortcut
+why do i need to restart ng serve sometimes?
+VS Code extensions
+- https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack
+Folder structure
+- https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
+Update + delete / 2 way databind / template driven form
+Error handling
+- Interceptors?
+Config
+-  Json placeholder url in config
+Service - singleton or what?
+Angular Elements
 Unit tests
-
-// Future considerations \\
-
-Data Service scoping 
-Data Store pattern 
-
-
-
-// Question \\
-How should the page and the data service deal with the data? 
-
-The component needs some data from a data service.
-The data service will get some data from multiple http sources. 
-Once all the sources have returned their data, the data service must transform the data before it returns it to the component.
-
-
-Questions
-1. Should the data service return a promise or an observable? I think a promise - The component is only interested in the final data set. 
-2. Should the data service use ForkJoin with a dictionary of data sources, and subscribe to that to get all the retrieve data?
-3. Is there another pattern that the component should use instead of ngOnInit + setting a flag to say the data is ready?
-
-
-
-// Question \\
 Double or single quotes?
+When randomising item selection, ensure a new item is taken every time
+css location - lots of specialised or one bigass one

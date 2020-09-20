@@ -3,11 +3,7 @@
 <br>
 <div class="items">
   <div *ngFor="let item of items">
-    <div class="item">
-      <span>Post: {{item.post.title}}</span><br>
-      <span>Album: {{item.album.title}}</span> <br>
-      <span>User name: {{item.user.username}}</span><br>
-    </div> 
+    <item-component [item]="item"></item-component>
     <br>
   </div>
 </div>
