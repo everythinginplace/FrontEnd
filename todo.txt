@@ -1,10 +1,4 @@
 // TODO \\
-Generate component using shortcut
-why do i need to restart ng serve sometimes?
-VS Code extensions
-- https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack
-Folder structure
-- https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
 Update + delete / 2 way databind / template driven form
 Error handling
 - Interceptors?
@@ -16,3 +10,10 @@ Unit tests
 Double or single quotes?
 When randomising item selection, ensure a new item is taken every time
 css location - lots of specialised or one bigass one
+
+// Later \\
+VS Code extensions
+- https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack
+Folder structure
+- https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
+why do i need to restart ng serve sometimes?

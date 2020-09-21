@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataItem } from '../shared/data.item';
+import { DataItem } from '../../shared/data.item';
 import { ActivatedRoute} from '@angular/router';
 
 @Component({

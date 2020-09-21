@@ -1,21 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { DataResolverService } from './services/data-resolver.service';
 
 const routes: Routes = [
   {
-    path: 'dashboard',
-    component: DashboardComponent,
-    resolve: {
-      data: DataResolverService
-    }
+    // this is pointing at the data-item module as the default route
+    path: '',
+    redirectTo: 'data-items',
+    pathMatch: 'full'
   },
   {
-    path: '',
-    redirectTo: 'dashboard',
-    pathMatch: 'full'
-  }
+    path: 'data-items',
+    loadChildren: () => import('./data-item/data-item.module').then(m => m.DataItemModule)
+  },
 ];
 
 @NgModule({
