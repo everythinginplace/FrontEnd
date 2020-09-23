@@ -2,4 +2,7 @@
     <span>Post: {{item.post.title}}</span><br>
     <span>Album: {{item.album.title}}</span> <br>
     <span>User name: {{item.user.username}}</span><br>
+    <label>Edit Post:
+        <input [(ngModel)]="item.post.title" placeholder="blah" />
+    </label><br>
 </div>

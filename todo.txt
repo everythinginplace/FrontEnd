@@ -5,7 +5,6 @@ Error handling
 Config
 -  Json placeholder url in config
 Service - singleton or what?
-Angular Elements
 Unit tests
 Double or single quotes?
 When randomising item selection, ensure a new item is taken every time
@@ -17,3 +16,4 @@ VS Code extensions
 Folder structure
 - https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
 why do i need to restart ng serve sometimes?
+Angular Elements

@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { DataItem } from '../shared/data.item';
+import { FormsModule } from '@angular/forms'
+import { DataItem } from '../../shared/data.item';
 
 @Component({
     selector: 'item-component',
